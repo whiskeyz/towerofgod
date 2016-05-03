@@ -1,0 +1,1501 @@
+/*------------ HEADERS ----------*/
+
+#header-bottom-right .user { color: #fff !important;}
+
+#header-bottom-right{
+	margin-top: 190px;
+	z-index: 99999999 !important;
+	border: none;
+	background-color: transparent;
+	background-image: url(%%transparent%%);
+}
+
+.user .userkarma { color: #fff!important }
+
+#header-bottom-right a{
+	color: #fff;	
+}
+
+#userbarToggle{
+	background: none !important;
+	border-right: none !important;
+	padding-left: 2px !important;
+	padding-left: 5px;
+	color: #fff !important;
+}
+
+/*--------------USER FLAIRS-----------------*/
+
+.flair {
+         background: url(%%spritesheet%%) no-repeat -9999px;
+    border: 0;
+    padding: 0;
+}
+
+.flair-Anak {
+        background-position: -26px -1px;
+        width: 19px;
+	    height: 34px;;
+        margin-bottom: 2px;
+        padding-right: 2px;
+}
+.flair-Anak:hover {
+        background-position: -1px -3px;
+        width: 19px;
+	    height: 32px;;
+        margin-bottom: 4px;
+        padding-right: 2px;
+}
+.flair-Androssi {
+        background-position: -26px -40px;
+        width: 19px;
+	    height: 34px;;
+        margin-bottom: 2px;
+        padding-right: 2px;
+}
+.flair-Androssi:hover {
+        background-position: -1px -42px;
+        width: 19px;
+	    height: 32px;;
+        margin-bottom: 4px;
+        padding-right: 2px;
+}
+.flair-Baam {
+        background-position: -26px -79px;
+        width: 19px;
+	    height: 34px;;
+        margin-bottom: 2px;
+        padding-right: 2px;
+}
+.flair-Baam:hover {
+        background-position: -1px -82px;
+        width: 19px;
+	    height: 32px;;
+        margin-bottom: 4px;
+        padding-right: 2px;
+}
+.flair-Beta {
+        background-position: -26px -118px;
+        width: 19px;
+	    height: 34px;;
+        margin-bottom: 2px;
+        padding-right: 2px;
+}
+.flair-Beta:hover {
+        background-position: -1px -120px;
+        width: 19px;
+	    height: 32px;;
+        margin-bottom: 4px;
+        padding-right: 2px;
+}
+.flair-Hatsu {
+        background-position: -26px -157px;
+        width: 19px;
+	    height: 34px;;
+        margin-bottom: 2px;
+        padding-right: 2px;
+}
+.flair-Hatsu:hover {
+        background-position: -1px -159px;
+        width: 19px;
+	    height: 32px;;
+        margin-bottom: 4px;
+        padding-right: 2px;
+}
+.flair-HwaRyun {
+        background-position: -26px -196px;
+        width: 19px;
+	    height: 34px;;
+        margin-bottom: 2px;
+        padding-right: 2px;
+}
+.flair-HwaRyun:hover {
+        background-position: -1px -198px;
+        width: 19px;
+	    height: 32px;;
+        margin-bottom: 4px;
+        padding-right: 2px;
+}
+.flair-HaJinsung {
+        background-position: -26px -235px;
+        width: 19px;
+	    height: 34px;;
+        margin-bottom: 2px;
+        padding-right: 2px;
+}
+.flair-HaJinsung:hover {
+        background-position: -1px -237px;
+        width: 19px;
+	    height: 32px;;
+        margin-bottom: 4px;
+        padding-right: 2px;
+}
+.flair-Koon {
+        background-position: -26px -274px;
+        width: 19px;
+	    height: 34px;;
+        margin-bottom: 2px;
+        padding-right: 2px;
+}
+.flair-Koon:hover {
+        background-position: -1px -276px;
+        width: 19px;
+	    height: 32px;;
+        margin-bottom: 4px;
+        padding-right: 2px;
+}
+.flair-Laure {
+        background-position: -26px -313px;
+        width: 22px;
+	    height: 34px;;
+        margin-bottom: 2px;
+        padding-right: 2px;
+}
+.flair-Laure:hover {
+        background-position: -1px -315px;
+        width: 22px;
+	    height: 32px;;
+        margin-bottom: 4px;
+        padding-right: 2px;
+}
+.flair-Leeso {
+        background-position: -26px -352px;
+        width: 19px;
+	    height: 34px;;
+        margin-bottom: 2px;
+        padding-right: 2px;
+}
+.flair-Leeso:hover {
+        background-position: -1px -354px;
+        width: 19px;
+	    height: 32px;;
+        margin-bottom: 4px;
+        padding-right: 2px;
+}
+.flair-Leroro {
+        background-position: -26px -391px;
+        width: 19px;
+	    height: 34px;;
+        margin-bottom: 2px;
+        padding-right: 2px;
+}
+.flair-Leroro:hover {
+        background-position: -1px -393px;
+        width: 19px;
+	    height: 32px;;
+        margin-bottom: 4px;
+        padding-right: 2px;
+}
+.flair-Quant {
+        background-position: -26px -430px;
+        width: 19px;
+	    height: 34px;;
+        margin-bottom: 2px;
+        padding-right: 2px;
+}
+.flair-Quant:hover {
+        background-position: -1px -432px;
+        width: 19px;
+	    height: 32px;;
+        margin-bottom: 4px;
+        padding-right: 2px;
+}
+.flair-Rachel {
+        background-position: -26px -469px;
+        width: 19px;
+	    height: 34px;;
+        margin-bottom: 2px;
+        padding-right: 2px;
+}
+.flair-Rachel:hover {
+        background-position: -1px -471px;
+        width: 19px;
+	    height: 32px;;
+        margin-bottom: 4px;
+        padding-right: 2px;
+}
+.flair-Rak {
+        background-position: -28px -508px;
+        width: 22px;
+	    height: 34px;;
+        margin-bottom: 2px;
+        padding-right: 2px;
+}
+.flair-Rak:hover {
+        background-position: -1px -510px;
+        width: 22px;
+	    height: 32px;;
+        margin-bottom: 4px;
+        padding-right: 2px;
+}
+.flair-Ran {
+        background-position: -26px -547px;
+        width: 19px;
+	    height: 34px;;
+        margin-bottom: 2px;
+        padding-right: 2px;
+}
+.flair-Ran:hover {
+        background-position: -1px -549px;
+        width: 19px;
+	    height: 32px;;
+        margin-bottom: 4px;
+        padding-right: 2px;
+}
+.flair-Wangnan {
+        background-position: -26px -586px;
+        width: 19px;
+	    height: 34px;;
+        margin-bottom: 2px;
+        padding-right: 2px;
+}
+.flair-Wangnan:hover {
+        background-position: -1px -588px;
+        width: 19px;
+	    height: 32px;;
+        margin-bottom: 4px;
+        padding-right: 2px;
+}
+.flair-YeonYihwa {
+        background-position: -26px -625px;
+        width: 19px;
+	    height: 34px;;
+        margin-bottom: 2px;
+        padding-right: 2px;
+}
+.flair-YeonYihwa:hover {
+        background-position: -1px -627px;
+        width: 19px;
+	    height: 32px;;
+        margin-bottom: 4px;
+        padding-right: 2px;
+}
+.flair-Yuri {
+        background-position: -26px -664px;
+        width: 21px;
+	    height: 34px;;
+        margin-bottom: 2px;
+        padding-right: 2px;
+}
+.flair-Yuri:hover {
+        background-position: -1px -666px;
+        width: 21px;
+	    height: 32px;;
+        margin-bottom: 4px;
+        padding-right: 2px;
+}
+
+/* Add All Future Flairs as 2-Flair */
+
+.flair[class*="2-"] { 
+    background-color:rgba(0,0,0,0);
+	border: none;
+	color: #333;
+	font-size: small !important;
+	font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+	padding: 1px 6px 0px 3px; 
+}
+
+.flair-2-Wolhaiksong {
+        background-image: url(%%tree%%);
+        background-position: 0px 0px;
+        width: 25px;
+	height: 33px;;
+       
+}
+.flair-2-Zahard {
+        background-image: url(%%zahard%%);
+        background-position: 0px 0px;
+        width: 29px;
+	height: 18px;;
+}
+
+/*==================================================*/
+
+/*Change readers:*/  
+ 
+    .subscribers .word    
+        {    
+        display: none;    
+        }    
+    .subscribers .number::after    
+        {    
+        content: " Regulars Climbing the Tower";    
+        }    
+
+/*==================================================*/
+
+/*Change users online:*/    
+    
+    .users-online .word    
+        {    
+        display: none;    
+        }    
+    .users-online .number::after    
+        {    
+        content: " Lightbearers on the Lighthouse";    
+        }    
+
+/*==================================================*/
+
+/*Warn about downvotes */    
+    
+    #siteTable .entry.dislikes .buttons:before    
+        {    
+        content:"Spoilsport!";    
+        color:red;    
+        font-size:7pt    
+        }    
+
+/*==================================================*/
+
+/*Mobile Friendly Spoilers*/    
+/*[](#s "[spoiler text]")*/    
+/*the quote are necessary*/    
+    
+    a[href="#s"]    
+        {    
+        font-size: 0;    
+        visibility: hidden;    
+        cursor: default;    
+        display: inline-block    
+        }    
+
+    a[href="#s"]::after    
+        {    
+        content: attr(title);    
+        background: #ebebeb;    
+        color: #ebebeb;    
+        font-size: small;    
+        visibility: visible    
+        }    
+
+    a[href="#s"]:hover::after, a[href="#s"]:active::after    
+        {    
+        color: #000000;    
+        background: #ffffff;    
+        text-decoration: none;    
+        font-size: small    
+        }    
+
+/*==================================================*/
+
+a[href*="TASER_NINJA"] {
+        font-size: 0;
+}
+
+a[href*="SaberMarie"]:after {
+	content: " (Hexsy)";
+}
+
+a[href*="NotSteve_"] {
+-webkit-transform: rotate(180deg);
+-moz-transform: rotate(180deg);
+-o-transform: rotate(180deg);
+}
+
+a[href*="TASER_NINJA"]:after {
+        font-size: 12px;
+        content: 'OldNotSteve_';
+}
+
+/*  Fancy no thumbnail */
+
+    .thumbnail.default 
+        {
+        background-image: url(%%Zahrad-E%%) !important;
+        background-position: top left;
+        }
+
+/*==================================================*/
+
+/*  Fancy self */
+
+    .thumbnail.self
+        {
+        background-image: url(%%self%%) !important;
+        background-position: top left !important;
+        }
+
+/*==================================================*/
+
+/*  Fancy NSFW rename & NSFW Thumbnail to Spoiler */
+
+    /*===== RENAME NSFW TO SPOILER =====*/
+
+.stamp{
+     border: none !important;
+}
+
+.marknsfw-button, .unmarknsfw-button  {
+    font-size:0;    
+}
+.marknsfw-button .togglebutton:after {
+    content:'spoiler';
+    font-size:10px;
+}
+ .unmarknsfw-button .togglebutton:after {
+     content:'un-spoiler';
+     font-size:10px;
+}
+
+    .nsfw-stamp acronym
+        {
+        border: none !important;
+        font-size: 0px !important;
+        }
+
+    .nsfw-stamp acronym:after
+        {
+        border: 1px solid red !important;
+        border-radius: 4px;
+        padding-left: 3px;
+        padding-right: 3px;
+        color: #A31717 !important; /*#336699*/
+        font-size: 10px;
+        content: "SPOILER" !important;
+        }
+
+    .thumbnail.nsfw
+        {
+        background-image: url(%%spoiler%%) !important;
+        background-position: top left !important;
+        }
+
+/*==================================================*/
+
+/*Arrow placement*/
+
+       .midcol
+        {
+        margin-left: 20px !important
+        }
+
+    .link .midcol
+        {
+        padding-right: 20px !important
+        }
+
+    .midcol[style]
+        {
+        width: 30px !important
+        }
+
+    .comment .midcol
+        {
+        width:30px;
+        background-color: transparent!important;
+        }
+
+    .gadget .midcol
+        {
+        width:30px;
+        margin:0
+        } 
+
+/*==================================================*/
+
+/*Arrows*/
+
+   .arrow.up, .arrow.upmod, .arrow.down, .arrow.downmod { background: 0; background-image: url(%%arrows%%) !important; }
+   
+   .arrow.up      
+              { background-position: -76px -4px;  width: 28px; height: 20px; }
+   .arrow.upmod   
+              { background-position: -112px -4px;  width: 28px; height: 20px; }
+   .arrow.downmod 
+              { background-position: -39px -9px;   width: 28px; height: 20px; }
+   .arrow.down    
+              { background-position: -3px -9px;  width: 28px; height: 20px; }   
+ 
+
+/*==========================================================================*/
+
+
+/*New CSS */
+#sr-header-area
+{
+	position:relative;
+	margin-top:-50px;
+	z-index:100!important;
+	border:none!important;
+	opacity:0.7;
+}
+
+#sr-header-area:hover{ opacity:0.9; }
+
+#header .pagename.redditname { font-size: 0; }
+
+#header .pagename.redditname a{
+	font-size: 13px;
+	position: relative;
+	left: 37px;
+	display: inline;
+	color: #FFF;
+	background-color: #B64632;
+	font-weight: 100;
+	line-height: 1.5;
+	padding-top: 11px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-transform: uppercase;
+}
+
+#header .pagename.redditname a:hover{
+	text-decoration: none;
+	background-color: #a33f2d;
+}
+
+#header
+{
+	position: relative;
+	background-image:url(%%banner2%%);
+	background-position:top left;
+	background-repeat: no-repeat;
+	width: 100%;
+	top: 50px;
+	background-color:#FFF;
+	height:240px!important;
+	border-bottom:0;
+}
+
+#header-bottom-left:before {
+        content: '';
+        top: -100px;
+        width: 100%;
+        position: absolute;
+        height: 100px;
+/*
+        background: url(%%flake1%%),url(%%flake2%%),url(%%flake3%%);
+        background-color: transparent;
+        -webkit-animation: snow 20s linear infinite;
+        -moz-animation: snow 20s linear infinite;
+        -ms-animation: snow 20s linear infinite;
+        animation: snow 20s linear infinite
+*/
+}
+
+#header-bottom-left
+{
+	position:relative;
+	padding: 10px 0px;
+	top: 222px;
+	bottom:0;	
+	left: 0;
+	background-color:#363636;
+}
+
+#header-bottom-left:after {
+	content: ' ';
+	top: 36px;
+	left: 0;
+	position: absolute;
+	background-image:url(%%bg-diagonal%%);
+	background-position: bottom left;
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 5px;
+}
+
+.formtabs
+{
+	position:absolute;
+	z-index:999;
+	background-color:#FFF;
+}
+
+#header-bottom-left .tabmenu
+{
+	position: absolute;
+	top: -4px;
+	clear: both;
+
+	padding: 10px;
+}
+
+#header-bottom-left ul.tabmenu
+{
+	margin-left: 90px;
+}
+
+#header-bottom-left .tabmenu li a { 
+	color: #FFF;
+	font-weight: 100;
+	background: none;
+	line-height: 1.5;
+	margin-right: -6px;
+	margin-left: 0;
+	padding-top: 12px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-transform: uppercase;
+}
+
+#header-bottom-left .tabmenu li a:hover {
+	background-color: #2e2e2e;	
+}
+
+#header-bottom-left .tabmenu * {
+	background: none; 
+	border: none;
+}
+
+img#header-img
+{
+	display: none;
+}
+
+#header-img-a {
+	position: absolute;
+	margin-left: 155px;
+	top: 0;
+	padding-top: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+#header-img-a:after{
+	content: 'reddit';
+	display: inline;
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+#header-img-a:hover {
+	background-color: #2e2e2e;
+}
+
+.content {
+	/* margin-top: 110px; */ /* No Second Announcement css */
+        margin-top: 130px; /* Second announcement css */
+}
+
+.side {
+	margin-top: 70px;	
+        margin-right: 10px;
+        padding: 5px; 
+        border: 1px solid #fff;
+        border-width: 1px 0;
+        background-color: #fefefd;
+        box-shadow: 0 1px 3px 0 #ccb;
+}
+
+/* .morelink {
+	color: #FFF;
+	font-weight: 100;
+	background: #363636;
+	border-radius: 0;
+	border: none;
+}
+
+.morelink a {
+	color: #FFF;
+}
+
+.morelink a:hover {
+	background: none;
+	background-color: #B64632;
+	border: none;
+}*/
+
+.nub {
+	display: none;	
+}
+
+#newlink{
+	margin-top: 0;
+}
+
+.roundfield {
+	background-color: #363636;
+	border-radius: 0;
+	color: #FFF;		
+}
+
+span.title {
+	color: #FFF;	
+}
+
+#suggested-reddits a{
+	color: #B64632;	
+}
+
+.roundfield.info-notice {
+	color: #333;	
+}
+
+.sr-autocomplete {
+	color: #333;	
+}
+
+/*Styling sidebar headers*/
+
+.side .md > h3, .side .md > h3:after {
+  	background-color: #333;
+  	color: white;
+  	padding: 4px;
+  	font-weight: 100;
+}
+
+.side .md > h3 > a{
+	color: 	#cc523d;
+}
+
+.side .md > h3 {
+  	border-width: 1px 0 1px 0;
+}
+
+.side .md > h3:after {
+ 	border-width: 10px 10px 10px 0;
+  	border-style: solid;
+  	border-color: white;
+  	border-right-color: #333;
+}
+
+/* Notification/Alert bar styles */
+
+.side .md h5:before {
+	content: '!';
+	margin-left: -10px;
+	margin-right: 10px;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #B64632;
+   }
+
+.side .md h5 {
+    	position: absolute;
+    	color: #FFF;
+    	top: 200px;
+    	left: 50px;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+    	background-color: #363636;
+   }
+   
+.side .md h5 > a { 
+	color: #eee;
+}
+
+
+.entry .buttons li a {
+        padding-bottom: 0;
+        line-height: 2.3;
+        margin: 0;
+}
+
+.link .score {
+	padding-left: 7px;
+}
+
+.thing {
+	padding: 0!important;
+	margin: 0!important;
+	}
+	
+
+.listing-page .link{
+   border-top: 1px solid #eee;
+}
+
+
+/******************************************/
+/* Autowikibot hover to display */
+
+.comment .md h5+h6+h4+p>*:not(a),.comment .md h5+h6+h4+p+hr,.comment .md h5+h6+h4+p+hr+blockquote,.comment .md h5+h6+h4+p+hr+blockquote+hr,.comment .md h5+h6+h4+p+hr+blockquote+hr+p,.comment .md h5+h6+h4+p+hr+blockquote+hr+p+p {
+    display: none;
+}
+
+.comment .md h5+h6+h4+p {
+    font-size: 0px;
+}
+.comment .md:hover h5+h6+h4+p {
+    font-size: 1em;
+}
+
+.comment .md h5+h6+h4+p a {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 0px;
+    position:relative;
+    top:-1em;
+    left: 12.1em;
+}
+.comment .md h5+h6+h4+p a:after {
+    content: ".";
+}
+.comment .md:hover h5+h6+h4+p a {
+    display: inline-block;
+    font-size: 1em;
+    line-height: 1em;
+    position:relative;
+    top:0;
+    left:0;
+}
+
+.comment .md:hover h5+h6+h4+p>*:not(a) {
+    display: inline;
+}
+
+.comment .md:hover h5+h6+h4+p+hr,.comment .md:hover h5+h6+h4+p+hr+blockquote,.comment .md:hover h5+h6+h4+p+hr+blockquote+hr,.comment .md:hover h5+h6+h4+p+hr+blockquote+hr+p,.comment .md:hover h5+h6+h4+p+hr+blockquote+hr+p+p {
+    display: block;
+}
+
+.comment .md h5+h6+h4:before {
+    content: "Autowikibot post on: ";
+
+}
+.comment .md h5+h6+h4 {position: relative;}
+.comment .md h5+h6+h4:after {
+    content: "Hover to view.";
+
+    position: absolute;
+    top: 1.2em;
+    left: 0em;
+}
+.comment .md:hover h5+h6+h4:after,.comment .md:hover h5+h6+h4:before,.comment .md:hover h5+h6+h4+p a:after {
+    content: ""
+}
+/****************************/
+
+
+/* Fancy 2000 sub notification */
+
+.side h4:before 
+{ 
+content: ''; 
+margin-left: -10px; 
+margin-right: 10px; 
+padding: 10px; 
+padding-top: 3px; 
+padding-bottom: 3px; 
+padding-right: 15px; 
+background:url(%%1ksubs%%) no-repeat; 
+background-color: #B64632; 
+}
+.side h4 
+{ 
+position: absolute; 
+color: #FFF; 
+top: 220px; 
+left: 50px; 
+font-size: 15px;
+padding: 10px; 
+padding-top: 3px; 
+padding-bottom: 3px; 
+background-color: #363636; 
+}
+
+/**/
+
+
+#siteTable
+{
+    margin-right: 285px !important;
+    padding-right: 2% !important;
+}
+@media only screen and (max-width: 800px)
+{
+    div.side
+    { 
+        display: none !important;
+    }
+    #siteTable
+    {
+        margin-right: 0px !important;
+}
+}
+
+/* This bit is taken from the Mindashq custom reddit css */
+
+#siteTable_organic {
+        margin: 0 5px;
+}
+.organic-listing,
+.thing.link.stickied,
+.thing.link.promoted {
+        overflow: hidden;
+        background: none #edf5ff;
+        box-shadow: 0 1px 3px 0 #ccb;
+        border-right: 3px solid darkgreen !important;
+}
+.thing.link.stickied {
+        background: none #fffeed;
+}
+.thing.link.stickied a.title {
+        color: #50722b;
+}
+.listing-page .link:first-child.stickied {
+        margin: 0 0 10px !important;
+        border-width: 1px 0 1px 1px;
+}
+/*-- A.4.2. Rest of Links (Posts) -- */
+.linklisting .thing {
+        overflow: hidden;
+        margin: 0;
+        padding: 2px 0 0;
+        border: 1px solid #fff;
+        border-width: 1px 0;
+        background-color: #fefefd;
+        box-shadow: 0 1px 3px 0 #ccb;
+}
+.linklisting .compressed.thing {
+        padding: 3px 0 0;
+}
+.linklisting .odd {
+        /*background-color: #fbfbfb;*/
+}
+.linklisting .even {
+        background-color: #f8f8f8;
+}
+.link.last-clicked {
+        background-color: #f5f5f5;
+        background-image: linear-gradient(#f8f8f8,#f5f5f5);
+}
+.linklisting .link.self .domain {
+        display: none; /*hides self posts*/
+}
+.link .expando {
+        margin: 0;
+}
+.linklisting div.thing.comment {
+        margin: 0 0 5px !important;
+        padding: 5px 0 5px 10px !important;
+        font-size: 11px;
+}
+/*-- A.4.3. Links sub-parts -- */
+.sitetable {
+        padding: 5px;
+}
+.sitetable .sitetable {
+        padding: 0;
+}
+.link .rank {
+        margin: 14px 0 0 5px;
+        padding: 10px 5px 0;
+        background-color: transparent;
+        color: #ccb;
+        font-size: small;
+        text-align: right;
+}
+.link.compressed .rank {
+        margin-top: 5px;
+}
+.link .midcol {
+        margin: 5px 10px;
+}
+.link.compressed .midcol {
+        margin: 5px;
+}
+.thumbnail {
+        margin: 5px 10px 5px 0;
+}
+.thumbnail.self,
+.thumbnail.default {
+        display: none;
+}
+.listing-page .thumbnail {
+        max-height: 55px;
+}
+.entry {
+        margin: 0;
+        padding: 3px 5px;
+}
+.compressed .entry {
+        padding: 2px 5px 2px 2px;
+}
+.link .title {
+        overflow: visible;
+        margin: 0 .4em 2px 0;
+        font-size: 125%;
+        line-height: 1.3;
+}
+.link.compressed .title {
+        margin: -1px .4em 1px 0;
+        font-size: 123%;
+}
+.link .usertext{
+        padding-right: 15px;
+        border: 0;
+        background: transparent;
+}
+
+/* ---         TOG 2.0 GOES BEYOND HERE         --- */
+/* ---               REVISION 7                 --- */
+/* ---               02/05/2016                 --- */
+
+/* --- CUSTOM SCROLLING BANNER --- */
+#header
+{
+	position: relative;
+	background-image:url(%%togscrollbg%%);
+	background-position:top left;
+	background-repeat: no-repeat;
+	width: 100%;
+	top: 50px;
+	background-color:#FFF;
+	height:240px!important;
+	border-bottom:0;
+}
+
+#header {
+background-repeat: repeat;
+-webkit-animation: banner 300s infinite linear;
+animation: banner 300s infinite linear;
+ }
+
+@-webkit-keyframes banner {
+from { background-position: 0 0px; }
+to { background-position: -5402px 500px; }
+}
+@keyframes banner {
+from { background-position: 0 0px; }
+to { background-position: -5402px 0px; }
+}
+
+/* HOVER CHANGE SCROLLING BANNER */
+
+/* -------HOVER CHANGE BANNER---------- */
+
+#header:hover {
+    background: gray url("%%banner3%%") repeat scroll center left;
+    background-size: cover;
+    height: 210px;
+    animation: scroll 150s linear infinite;
+    -webkit-animation: scroll 150s linear infinite;
+    -moz-animation: scroll 150s linear infinite;
+    -ms-animation: scroll 150s linear infinite;
+    -o-animation: scroll 150s linear infinite;
+}
+
+#header:hover {
+background-repeat: repeat;
+-webkit-animation: banner 300s infinite linear;
+animation: banner 300s infinite linear;
+ }
+
+@-webkit-keyframes banner {
+from { background-position: 0 0px; }
+to { background-position: -5402px 500px; }
+}
+@keyframes banner {
+from { background-position: 0 0px; }
+to { background-position: -5402px 0px; }
+}
+
+/* --- FRONT BANNER --- */
+#header:before, .submit-page #header:before{
+    position:absolute; 
+    content:'';
+    background:url(%%togbannerfront-narrow%%);
+    background-repeat: no-repeat;
+    height:240px; 
+    width:850px; 
+    left: 38%;
+    margin-left: -200px;
+    margin-top: 30px;
+
+    /* Auto-fit *//*position:absolute;top:20%;left:-5%;*/ 
+    
+}
+/* --- END FRONT BANNER --- */
+
+#header-bottom-left:before {
+        content: '';
+        top: -100px;
+        width: 100%;
+        position: absolute;
+        height: 100px;
+}
+/* --- END CUSTOM SCROLLING BANNER --- */
+
+
+/* --- CUSTOM CURSOR --- */
+body {
+cursor: url(%%cursorwrap-smaller%%), default !important;
+}
+/* a.pointer, label, html > body a:active, html, span.selected, body iframe {
+cursor: url(%%cursor-leftclick%%), default !important;
+}*/
+body a, .arrow, button, a.progress, div.expando-button {
+cursor: url(%%cursorlinkfinal-smaller%%), pointer !important;
+}
+textarea:hover, input {
+cursor: url(%%cursorwrap-smaller%%), text !important;
+}
+/* --- END CUSTOM CURSOR --- */
+
+/* --- CUSTOM SUBMIT --- */
+/* --- IMPT: Delete the .morelink css block first --- */
+.submit.submit-link .morelink {
+  background: url(%%newlink2%%);
+  height:48px;
+  width:308px;
+  right: 5px;
+}
+.submit-link .morelink:hover {
+    background: url(%%newlink2hover%%) no-repeat 0 0;
+}
+
+.submit.submit-text .morelink {
+  background: url(%%newtext2%%);
+  height:48px;
+  width:308px;
+  right: 5px;
+}
+.submit-text .morelink:hover {
+    background: url(%%newtext2hover%%) no-repeat 0 0;
+}
+/* --- END CUSTOM SUBMIT --- */
+ 
+
+
+/* --- REMOVE DEFAULT SUBMIT --- */
+.submit > .morelink {
+  border: none;
+  background: none;
+  font-size: 0;
+}
+/* --- END REMOVE DEFAULT SUBMIT --- */ 
+
+
+ /* --- CUSTOM SEARCH BAR --- */
+ .side #search {
+    position: absolute;
+    top: 244px;
+    right: 0;
+    z-index: 99;
+}
+
+
+#search input[type="text"] {
+    background: url(%%search%%) center left no-repeat !important;
+
+    padding: 5px 0px 5px 55px !important;
+    height: 30px !important;
+    width: 320px !important;
+    }
+/* --- END CUSTOM SEARCH BAR --- */
+
+/* --- SIDEBAR IMAGE --- */
+a[href="#officialraw"]
+{
+    display: inline-block;
+    height: 48px;
+    width: 308px;
+    margin: auto -3px;
+    background: url(%%officialraw%%);
+}
+a[href="#officialraw"] { background-position: 0 0px; }
+
+a[href="#fanproject"]
+{
+    display: inline-block;
+    height: 48px;
+    width: 308px;
+    margin: auto -3px;
+    background: url(%%fanproject%%);
+}
+a[href="#fanproject"] { background-position: 0 0px; }
+
+a[href="#fanarticles"]
+{
+    display: inline-block;
+    height: 48px;
+    width: 308px;
+    margin: auto -3px;
+    background: url(%%fanarticles%%);
+}
+a[href="#fanarticles"] { background-position: 0 0px; }
+
+a[href="#links"]
+{
+    display: inline-block;
+    height: 48px;
+    width: 308px;
+    margin: auto -3px;
+    background: url(%%links%%);
+}
+a[href="#links"] { background-position: 0 0px; }
+
+a[href="#friends"]
+{
+    display: inline-block;
+    height: 48px;
+    width: 308px;
+    margin: auto -3px;
+    background: url(%%friends%%);
+}
+a[href="#friends"] { background-position: 0 0px; }
+
+a[href="#sidefanart"]
+{
+    display: inline-block;
+    height: 48px;
+    width: 308px;
+    margin: auto -3px;
+    background: url(%%sidefanart%%);
+}
+a[href="#sidefanart"] { background-position: 0 0px; }
+
+a[href="#moreinfo"]
+{
+    display: inline-block;
+    height: 48px;
+    width: 308px;
+    margin: auto -3px;
+    background: url(%%moreinfo%%);
+}
+a[href="#moreinfo"] { background-position: 0 0px; }
+/* --- END SIDEBAR IMAGE --- */
+
+/* --- ANNOUNCEMENT BAR --- */
+/* --- RESERVE SIDEBAR H3 FOR ANNOUNCEMENT --- */
+
+/* Announcement bar*/
+div.content {
+/*Adjust the vertical position of divider to suit theme*/
+margin-top:150px;
+}
+.titlebox form {
+/*Enable repositioning of child elements*/
+position: static
+}
+.side h3:nth-of-type(1) {
+/*Position of the announcement bar*/
+position:absolute;
+display: block;
+top:275px;
+left:20px;
+/*Style of the announcement bar*/
+background-color: #4D4D4D;
+color: #FFFFFF;
+text-align: left;
+margin: 15px;
+border-radius: 8px;
+width: auto;
+padding: 12px 0px 12px 55px; 
+margin: 12px 355px 12px 25px; 
+left: 0; 
+right: 0; 
+/*Background-side Image*/
+background-image: url(%%announcement%%);
+background-repeat: no-repeat;
+background-position:left;
+}
+/* --- ANNOUNCEMENT BAR END --- */
+
+/* --- CUSTOM SUBMIT PAGE --- */
+
+/* Remove announcement bar */
+.submit-page .side h3:nth-of-type(1) {
+    visibility: hidden;
+}
+
+/* Adjust div position */
+ .submit-page div.content {
+/*    width: 50%; 
+    margin: 0 auto;*/
+    margin-top: 100px;
+} 
+
+.submit-page .roundfield, .content.submit .info-notice, .tabmenu.formtab .selected a {
+	background-color: #404040;
+	border-radius: 0;
+	color: #FFF;		
+}
+
+/* Title box background */
+#title-field textarea {
+    background-image: url(%%titlefield%%);
+    height: 45px;
+    background-repeat:no-repeat;
+    -webkit-transition:background 0.35s ease-out;
+    -moz-transition:background 0.35s ease-out;
+    -o-transition:background 0.35s ease-out;
+    transition:background 0.35s ease-out;
+}
+
+#title-field textarea:focus {
+    background-position:-550px 0;
+}
+
+/* Custom Rules */
+.submit-page .md {
+    border-radius: 0;
+    color: #FFF;
+}
+
+/* Color correction... */
+.submit-page .submit_text h1 {
+    color: #FFF;
+}
+
+/* Change Border Color of Submission Box (the line on top) */
+.submit-page .formtabs-content {
+    border-top: 4px solid #000;
+}
+
+/*BEGONE DEFAULT TEXT*/
+#link-desc, #text-desc {
+    font-size: 0px;
+}
+
+#link-desc:after, #text-desc:after {
+    display: block;
+    font-weight: bold; 
+    background-color: black;
+    color: white; 
+    content: "REMEMBER TO SPOILER-TAG YOUR POST WHERE NECESSARY!";
+    font-size: 14px;
+} 
+
+#link-desc.infobar, #text-desc.infobar {
+    background-color: black;
+    border-color:black;
+}
+
+#title-field .title {
+    font-size: 0px;
+}
+#title-field .title:after {
+    font-size:15px;
+    content: "TITLE";
+}
+
+#url-field .title {
+    font-size: 0px;
+}
+#url-field .title:after {
+    font-size:15px;
+    content: "URL";
+}
+
+#text-field .title {
+    font-size: 0px;
+}
+#text-field .title:after {
+    font-size:15px;
+    content: "TEXT";
+}
+
+#reddit-field .title {
+    font-size: 0px;
+}
+#reddit-field .title:after {
+    font-size:15px;
+    content: "CHOOSE A SUBREDDIT";
+}
+
+.submit-page h1 {
+    font-size: 0px;
+}
+
+
+.submit-page .submit_text h1 {
+    font-size: 0px;
+}
+
+.submit-page .submit_text h1:after {
+    font-size:15px;
+    content: "Please take note of a few essential rules:";
+}
+
+/* Push rules to top */
+/* .submit-page .formtabs-content .spacer:first-child {
+    margin-top: 250px;
+}
+.submit_text.roundfield {
+    position: absolute;
+    top: 300px;
+} */
+.submit_text.roundfield {
+    display: block; 
+    max-height: 700px; 
+}
+
+/* --- SUBMIT PAGE SIDEBAR FONT COLOR FIX --- */
+.submit-page .side .md {
+    color: #000;
+}
+
+/* --- SUBMIT PAGE REMOVE HWARYUN --- */
+.submit-page .usertext textarea, .submit-page .roundfield .usertext-edit textarea {
+    background-image:none;
+}
+
+/* --- END CUSTOM SUBMIT PAGE --- */
+
+/* --- FAN ART --- */
+.side .spacer:first-child + .spacer {
+    padding-top: 260px;
+    margin: 5px 0;
+}
+
+.side .md [href="https://www.reddit.com/user/snowminty"] {
+    position: absolute;
+    top: 290px;
+    background: transparent url(%%fanart2%%) no-repeat;
+    right: 13px;
+    width: 302px;
+    height: 210px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.side .md [href="https://www.reddit.com/user/snowminty"]:before {
+    display: block;
+    width: 302px;
+    color: #FFF!important;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 3px #ffe680;
+    content: "Fan-art of the month by /u/snowminty!";
+    padding: 2px 0px 2px 0px; 
+    line-height: 20px;
+    font-size: 13px;
+    margin-top: 210px;
+    margin-right: 2px;
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* --- END FAN ART --- */
+
+/* --- CUSTOM COMMENT AREA --- */
+/*.commentarea .usertext textarea {
+    background-image: url(%%textarea%%);
+    background-repeat: no-repeat;
+}
+
+.commentarea .usertext textarea:focus {
+    background-image: none;
+}*/
+
+.commentarea .usertext textarea, .roundfield .usertext-edit textarea {
+    background-image:url("%%textarea%%");
+    background-repeat:no-repeat;
+    -webkit-transition:background 0.55s ease-out;
+    -moz-transition:background 0.55s ease-out;
+    -o-transition:background 0.55s ease-out;
+    transition:background 0.55s ease-out;
+}
+
+.commentarea .usertext textarea:focus, .roundfield .usertext-edit textarea:focus {
+    background-position:550px 0;
+}
+/* --- END CUSTOM COMMENT AREA --- */
+
+/* --- RES USERBAR FIX --- */
+
+.res-navTop #header-bottom-right, #header-bottom-right { 
+    bottom: 0; 
+    top: auto; 
+}
+
+/* --- END RES USERBAR FIX --- */
